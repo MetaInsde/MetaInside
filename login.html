@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="asserts/css/init.css">
+	<script src="https://use.fontawesome.com/eb1c3321a7.js"></script>
+</head>
+<body class="loginBody">
+     
+  <div class="topnav" id="topBar">
+    <a href="javascript:void(0);" class="icon" onclick="topBar()">
+      <i class="fa fa-bars"></i>
+    </a>
+    <center><a href="#home" class="heading uppercase">Meta Inside</a></center>
+    <div class="right rightArea">
+    	<a href="#!" class=" uppercase">Become a MetaInsider</a>
+    	<a href="#contact" class="">Sign in</a>
+    	<a href="#!" class="join uppercase">Join</a>
+    </div>
+    <a href="#!" class="join mobile joinMobile">Join</a>
+  </div>
+
+	<div class="loginBody">
+		<div class="loginMain">
+            <div class="space"></div>
+			<center><img src="asserts/images/login.png" style="width: 100px;"></center>
+			<p class="center">Login to enjoy our services)</p>
+			<div class="form">
+				<div class="form-group">
+					<label class="label">Username or Email</label>	
+					<input type="text" name="username" id="username" class="form-control" autocomplete="off"  readonly onfocus="this.removeAttribute('readonly');">
+				</div>
+				<span class="space"></span>
+				<div class="form-group">
+					<label class="label">Password</label>
+					<input type="password" name="password" id="password" class="form-control" autocomplete="off" readonly onfocus="this.removeAttribute('readonly');"> 
+				</div>
+				<span class="space"></span>
+				<div class="form-group">
+					<input type="submit" name="submit" class="btn right" value="Login">
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <hr>
+   <footer class="footer">
+        <div class="decent-section">
+            <div class="footer-overlay">
+                <div class="footer-overlay-2">
+                    <ul>
+                        <li class="footer-heading">Questions?</li>
+                        <li><a href="contact.html" target="_self"><span class="footer-btn">Contact us</span></a></li>
+                        <li><a href="faq.html" target="_self"><span class="footer-btn">FAQ</span></a></li>
+                        <li><a href="#!" target="_self"><span class="footer-btn">Tickets</span></a></li>
+                    </ul>
+                    <ul>
+                    <li class="footer-heading">Partner with us</li>
+                        <li><a href="#!" target="_self"><span class="footer-btn">Referral program</span></a></li>
+                        <li><a href="#!" target="_self"><span class="footer-btn">API</span></a></li>
+                        <li><a href="#!" target="_blank"><span class="footer-btn">Careers</span></a></li>
+                    </ul>
+                    <ul>
+                        <li class="footer-heading">Legal</li>
+                        <li><a href="terms.html" target="_self"><span class="footer-btn">Terms and Conditions</span></a></li>
+                        <li><a href="privacy.html" target="_self"><span class="footer-btn">Privacy Policy</span></a></li>
+                    </ul>
+                    <ul>
+                        <li class="footer-heading">Follow us!</li>
+                        <li><a href="#!" target="_self"><span class="footer-btn">Twitter</span></a></li>
+                        <li><a href="#!" target="_self"><span class="footer-btn">Facebook</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+function topBar() {
+  var x = document.getElementById("topBar");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</html>
