@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MetaInside</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<style type="text/css">
+@font-face {
+font-family: 'OSSAMA';
+font-style: normal;
+font-weight: normal;
+src: local('Myriad Pro Regular'), url('./asserts/font/MYRIADPRO-REGULAR.woff') format('woff');
+}
+
+
+		body {
+			border: 4px solid #0954a7;
+			color: #0954a7;
+			height: auto;
+			font-family: OSSAMA;
+			font-weight: 500;
+		}
+		.time {
+			display: flex;
+			margin-top: 25px;
+			padding: 25px;
+			margin-left: 21%;
+		}
+		.wrapper h2 {
+			font-weight: 350;
+			margin-top: 25px;
+			font-size: 36pt;
+		}
+		.main {
+			margin-top: 60px!important;
+		}
+		.main h3 {
+			font-weight: 500;
+			font-size: 36pt;
+		}
+		.time .t {
+			margin: 12px;
+		}
+		.time .box {
+			border: 4px solid #0954a7;
+			font-weight: bold;
+			font-size: 36pt;
+			margin: 2px;
+			width: 60px;
+		}
+		.time .t p {
+			font-weight: 400;
+			font-size: 36pt;
+		}
+		.logo img {
+			width: 250px;
+			margin-left: 37%;
+		}
+
+		.footer {
+			margin-top: 105px;
+			font-size: 22.18pt;
+		}
+
+		.t {
+			display: flex;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="wrapper">
+			<div class="logo">
+				<img src="coming.png">
+			</div>
+			<h2 class="text-center title">Coming soon, Be right there!</h2> 
+			<div class="time text-center">
+				<div class="tp">
+					<div class="t">
+						<div class="box" id="day1"></div>
+						<div class="box" id="day2"></div>
+					</div>
+					<p>Days</p>
+				</div>
+				<div class="tp">
+					<div class="t">
+						<div class="box" id="hrs1"></div>
+						<div class="box" id="hrs2"></div>
+					</div>
+					<p>Hrs</p>
+				</div>
+				<div class="tp">
+					<div class="t">
+						<div class="box" id="min1"></div>
+						<div class="box" id="min2"></div>
+					</div>
+					<p>Mins</p>
+				</div>
+				<div class="tp">
+					<div class="t">
+						<div class="box" id="sec1"></div>
+						<div class="box" id="sec2"></div>
+					</div>
+					<p>Sec</p>
+				</div>
+			</div>
+			<div class="main text-center">
+				<h3>Be Patient, Get Connected to <br/> become a meta insider</h3>
+			</div>
+			<div class="footer text-center">
+				We're building metainsiders, we'll build things together
+			</div>
+		</div>
+	</div>
+</body>
+<script>
+
+/**
+ * Coming soon time handler
+ * @author Muhammad Umer Farooq
+*/
+// Set the date we're counting down to
+var countDownDate = new Date("Feb 5, 2020 15:37:25").getTime();
+
+// Update the count down every 1 second
+var countdownfunction = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+  
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+  
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  
+console.log(days)
+var digits = days.toString().split('');
+var Days = digits.map(Number)
+
+document.getElementById('day1').innerHTML = Days[0];
+document.getElementById('day2').innerHTML = Days[1];
+
+digits = 0;
+digits = hours.toString().split('');
+var Hours = digits.map(Number);
+document.getElementById('hrs1').innerHTML = Hours[0];
+document.getElementById('hrs2').innerHTML = Hours[1];
+
+digits = 0;
+digits = minutes.toString().split('');
+var Minutes = digits.map(Number);
+if (Minutes[1] != undefined) {
+	document.getElementById('min1').innerHTML = Minutes[0];
+	document.getElementById('min2').innerHTML = Minutes[1];
+} else {
+	document.getElementById('min2').innerHTML = Minutes[0];
+	document.getElementById('min1').innerHTML = 0;
+}
+
+digits = 0;
+digits = seconds.toString().split('');
+var Seconds = digits.map(Number);
+if (Seconds[1] != undefined) {
+	document.getElementById('sec1').innerHTML = Seconds[0];
+	document.getElementById('sec2').innerHTML = Seconds[1];
+} else {
+	document.getElementById('sec2').innerHTML = Seconds[0];
+	document.getElementById('sec1').innerHTML = 0;
+}
+}, 1000);
+</script>
+
+</html>
