@@ -19,3 +19,19 @@ Make Business Smarter
 <p align="left">
   <img alt="" style="{max-height: 20px}" src="./Prototype/Home Page.PNG">
 </p>
+
+## Become a Metainsider
+
+Become a Metainsider
+
+<p align="left">
+  <img alt="" style="{max-height: 20px}" src="./Prototype/Become a Metainsider.PNG">
+</p>
+
+## Login Page
+
+Login Page
+
+<p align="left">
+  <img alt="" style="{max-height: 20px}" src="./Prototype/Become a Metainsider.PNG">
+</p>
