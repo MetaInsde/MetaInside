@@ -36,6 +36,7 @@ Make Business Smarter
 </p>
 
 
+
 ## Become a Metainsider
 
 Become a Metainsider
@@ -55,6 +56,7 @@ Login Page
 </p>
 
 
+
 # MetaInside (Newer Environment/Functionalities)
 
 - Newer Environment 
@@ -68,11 +70,13 @@ Login Page
   - `Forget Password, 2FA and Other Email  Notification`Functionality
 
 
+
 # MetaInside Statistics
 
 ##### The `Project` is `Uncompleted & Pending` 
 
 ##### `Right` Are Reserved `©`2022 `MetaInside` 
+
 
 
 ## Support 💓
