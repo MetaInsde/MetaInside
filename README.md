@@ -44,7 +44,7 @@ Login Page
   <img alt="" style="{max-height: 20px}" src="./Prototype/Login Page.PNG">
 </p>
 
-# Functionality (Coming Versions)
+# MetaInside (Newer Environment/Functionalities)
 
 - Newer Environment 
   - `Desktop` Application
