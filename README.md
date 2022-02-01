@@ -35,3 +35,15 @@ Login Page
 <p align="left">
   <img alt="" style="{max-height: 20px}" src="./Prototype/Login Page.PNG">
 </p>
+
+
+# MetaInside Statistics
+
+##### The `Project` is `Uncompleted & Pending` 
+
+##### `Right` Are Reserved `©`2022 `MetaInside` 
+
+
+## Support 💓
+
+Support at <a href="https://www.patreon.com/ossamamehmood" target="_blank">Patreon</a>
