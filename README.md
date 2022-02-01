@@ -9,7 +9,7 @@ We’re the global creative platform where designers and clients work together a
 Find the Best Graphic Design Services
 
 <p align="left">
-  <img alt="" style="{max-height: 20px}" src="./asserts/images/cover/home2.JPG">
+  <img alt="" style="{max-height: 20px}" src="./asserts/images/cover/home2.jpg">
 </p>
 
 ## Home Page Interface
