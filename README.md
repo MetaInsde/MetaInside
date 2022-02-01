@@ -44,6 +44,18 @@ Login Page
   <img alt="" style="{max-height: 20px}" src="./Prototype/Login Page.PNG">
 </p>
 
+# Functionality (Coming Versions)
+
+- Newer Environment 
+  - `Desktop` Application
+  - `Android` Application
+
+- Functionalities
+  - `Redesigning` Website
+  - `Better User Interface` Interactions
+  - `Community Discussion Tab and Customer Support` Functionality
+  - `Forget Password, 2FA and Other Email  Notification`Functionality
+
 
 # MetaInside Statistics
 
