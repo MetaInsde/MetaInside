@@ -33,5 +33,5 @@ Become a Metainsider
 Login Page
 
 <p align="left">
-  <img alt="" style="{max-height: 20px}" src="./Prototype/Become a Metainsider.PNG">
+  <img alt="" style="{max-height: 20px}" src="./Prototype/Login Page.PNG">
 </p>
