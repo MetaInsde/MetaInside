@@ -6,7 +6,7 @@ We’re the global creative platform where designers and clients work together a
 
 ## Welcome to Meta Inside
 
-Find the Best Graphic Design Services
+Welcome to Meta Inside, Explore the World to Become a Meta Insider (Join Us)
 
 <p align="left">
   <img alt="" style="{max-height: 20px}" src="./asserts/images/cover/home2.jpg">
